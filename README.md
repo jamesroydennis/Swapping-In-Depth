@@ -54,7 +54,7 @@ Before diving into the architecture of face swapping, it's important to understa
 - *Restorers*: GFPGAN, CodeFormer, RestorerFormer++, VQFT-v2  
 - *Alignments*: Original / Blend / Reference  
 
-[See FaceParserOverview.md](./FaceParserOverview.md)
+[See FaceParsersOverview.md](./FaceParsersOverview.md)
 
 **Output**: Enhanced face textures that preserve identity and motion consistency.  
 
@@ -97,7 +97,8 @@ Before diving into the architecture of face swapping, it's important to understa
 **Tools**: Some pipelines include their own tracking logic or pair with trackers like DeepSort or FairFaceTrack.  
 **Goal**: Avoid flickering, jittering, or face misalignment during playback.
 
-[See TemporalConsistencyAndTrackingOverview.md](./TemporalConsistencyAndTrackingOverview.md)
+[See TemporalConsistencyAndTrackingOverview.md](./TemporalConsistencyAndTracking.md)
+
 
 
 
