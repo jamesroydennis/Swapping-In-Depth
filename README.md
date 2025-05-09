@@ -97,7 +97,8 @@ Before diving into the architecture of face swapping, it's important to understa
 **Tools**: Some pipelines include their own tracking logic or pair with trackers like DeepSort or FairFaceTrack.  
 **Goal**: Avoid flickering, jittering, or face misalignment during playback.
 
-[See TemporalConsistencyAndTrackingOverview.md](./TemporalConsistencyAndTrackingOverview.md)
+[See TemporalConsistencyAndTrackingOverview.md](./TemporalConsistencyAndTracking.md)
+
 
 
 
