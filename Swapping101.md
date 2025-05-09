@@ -1,7 +1,4 @@
-# Swapping-In-Depth
-
-
-## A Practical Overview of Face Swapping Architecture
+## Swapping101.md – A Practical Overview of Face Swapping Architecture
 
 Before diving into the architecture of face swapping, it's important to understand the underlying complexities that justify the existence of each module. Variations in lighting, camera angles, occlusion (e.g., hands, hair, objects), motion blur, and subject distance all challenge facial fidelity. These real-world challenges require a modular system that adapts frame by frame. This is why modern face swapping solutions rely on multiple coordinated components rather than a single model.
 
@@ -98,6 +95,5 @@ Before diving into the architecture of face swapping, it's important to understa
 **Goal**: Avoid flickering, jittering, or face misalignment during playback.
 
 [See TemporalConsistencyAndTrackingOverview.md](./TemporalConsistencyAndTrackingOverview.md)
-
 
 
