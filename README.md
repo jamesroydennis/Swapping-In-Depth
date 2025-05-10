@@ -7,6 +7,14 @@ Before diving into the architecture of face swapping, it's important to understa
 
 ---
 
+### 🚀 New to Face Swapping?
+
+If you're just starting out and feeling overwhelmed, you're not alone. We've created a beginner-friendly guide that walks you through real-world settings, tools, and terminology based on personal experience. It’s a great place to build a solid foundation before diving deeper into the architecture.
+
+👉 [Getting Started with Swapping — My Experience](./GettingStartedWithSwapping-MyExperience.md)
+
+---
+
 ### 1. 🔍 Detection  
 **Purpose**: Identify and localize faces within each frame.  
 **Examples**: RetinaFace, YOLOv8, SCRFD, YuNet  
