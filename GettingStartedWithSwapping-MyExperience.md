@@ -13,7 +13,7 @@ Before we begin, I would like to note that I am using an older video card. GTX 1
 ## My Default Settings
 
 Swapping encompasses 5 main features of note:
-[See Swapping101.md](./Swapping101.md) for detailed explanations.
+[See Swapping-In-Depth](./Swapping101.md) for detailed explanations.
 
 ### 1. 🔍 Detection
 
@@ -72,10 +72,30 @@ I have nothing to add here yet.
 
 ---
 
+## Challenges
+
+Face-swapping is a multifaceted task with several challenges that can affect output quality. The three most common and impactful are motion, occlusion, and angle. Understanding these challenges helps in tuning your pipeline for better results.
+
+### 🎞️ Motion
+
+Fast movement can cause blur and reduce feature clarity, making it harder for models to detect and track faces accurately. The challenge of motion is best addressed by focusing on **detection**—choosing a detector that is robust to blur and frame-by-frame shifts.
+
+[See FaceDetectionOverview.md](./FaceDetectionOverview.md)
+
+### 🫣 Occlusion
+
+Occlusions from hands, objects, or hair obscure facial features and confuse both recognition and restoration. In these cases, **parsing** and **restoration** are crucial, as they help recover or reconstruct hidden parts with contextual awareness.
+
+[See FaceParsersOverview.md](./FaceParsersOverview.md)
+
+### 📐 Angle
+
+Variations in face orientation reduce the confidence and reliability of recognition models. **Recognition** engines that are angle-tolerant and capable of identity embedding across views will perform better.
+
+[See FaceRecognitionOverview.md](./FaceRecognitionOverview.md)
+
+---
+
 ## Summary
 
-In summary, these settings may not be ideal for every scenario, but they’ve served me well as a dependable starting point for general face-swapping—especially with subjects at a normal distance, with mild occlusions, and moderate motion. As your use case becomes more specific—such as dealing with extreme close-ups, unusual lighting, or complex motion—you may need to experiment and adjust.
-
-Remember: balance fidelity settings with your available VRAM and the visual importance of your target subject. Over-tuning can introduce artifacts or slow down processing without meaningful gains. Start simple, iterate carefully, and test often.
-
-I hope you find this helpful. The journey can be complex at first, but the results are absolutely worth it.
+In summary, these settings are not for every situation but I found that it serves as a good baseline for subjects at normal distance, mild occlusions, and motion tolerance. Settings will have to be altered for subject distance and desired clarity. I hope you find this helpful.
