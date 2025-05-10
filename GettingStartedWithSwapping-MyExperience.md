@@ -47,13 +47,13 @@ I use two:
 
 **GFPGAN-v1.4**
 
-* Alignment: Reference
+* Alignment: Blend
 * Fidelity Weight: \~0.3-0.5
 * Blend: 30-50% (default)
 
 **RestoreFormer++**
 
-* Alignment: Blend
+* Alignment: Original   
 * Fidelity Weight: \~0.9
 * Blend: \~40-80% (depending upon distance to subject)
 
