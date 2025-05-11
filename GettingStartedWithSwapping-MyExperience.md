@@ -51,11 +51,11 @@ I use two:
 * Fidelity Weight: \~0.3-0.5
 * Blend: 30-50% (default)
 
-**RestoreFormer++**
+**GFPGAN-v1.4**
 
-* Alignment: Blend   
+* Alignment: Reference   
 * Fidelity Weight: \~0.9
-* Blend: \~40-80% (depending upon distance to subject)
+* Blend: \~40-90% (depending upon distance to subject)
 
 [See FaceParsersOverview.md](./FaceParsersOverview.md) for other options and in-depth explanations.
 
