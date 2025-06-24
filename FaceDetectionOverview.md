@@ -4,7 +4,6 @@ Face detection is a critical first step in facial recognition tasks, as it ident
 
 ---
 
-Z
 
 This overview explains the fundamental concepts behind face detection settings, helping to tailor the detection process to specific needs and scenarios.
 
